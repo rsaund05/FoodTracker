@@ -23,8 +23,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NtQ-Kh-t3L">
-                                <rect key="frame" x="16" y="40" width="343" height="557.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NtQ-Kh-t3L">
+                                <rect key="frame" x="16" y="40" width="343" height="447.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Jz4-cD-kNL">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="447.5"/>
@@ -64,10 +64,11 @@
                                             <constraint firstAttribute="trailingMargin" secondItem="v9A-et-JRT" secondAttribute="trailing" id="mGD-wS-gtN"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znl-2J-z4K" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="447.5" width="343" height="110"/>
-                                    </stackView>
                                 </subviews>
+                            </stackView>
+                            <stackView autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Cxy-ZF-odx" customClass="RatingControl" customModule="FoodTracker">
+                                <rect key="frame" x="16" y="495" width="252" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

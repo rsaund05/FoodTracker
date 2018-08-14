@@ -47,7 +47,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         
     }
     @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        mealNameLabel.text = "Sausage slaps"
+        mealNameLabel.text = "Default text"
     }
     
     //MARK: UIImagePickerControllerDelegate
