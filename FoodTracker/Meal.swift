@@ -18,14 +18,20 @@ public class Meal{
     //MARK: Initialization
     
     init?(name: String, photo: UIImage?, rating: Int){
+        
+        //Name must not be empty
+        guard !name.isEmpty else{
+            return nil
+        }
+        
+        guard (rating >= 0)  && (rating <= 5) else {
+            return nil
+        }
+        
         //Initialize the stored properties
         self.name = name
         self.photo = photo
         self.rating = rating
         
-        //Fail initialization if no name is given or if the rating is a negative value
-        if name.isEmpty || rating < 0 {
-            return nil
-        }
     }
 }

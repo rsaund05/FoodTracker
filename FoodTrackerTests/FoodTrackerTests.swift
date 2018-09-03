@@ -36,6 +36,10 @@ class FoodTrackerTests: XCTestCase {
         let noNameMeal = Meal.init(name: "", photo: nil, rating: 0)
         XCTAssertNil(noNameMeal)
         
+        //Rating exceeds maximum
+        let exceedRatingMeal = Meal.init(name: "Exceeds", photo: nil, rating: 6)
+        XCTAssertNil(exceedRatingMeal)
+        
     }
     
 }
