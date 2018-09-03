@@ -30,6 +30,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     func textFieldDidEndEditing(_ textField: UITextField) {
         //Sets label of meal name to text in textField
         mealNameLabel.text = textField.text
+        textField.text = ""
     }
     
     //MARK: Actions
@@ -45,9 +46,6 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         imagePickerController.delegate = self
         present(imagePickerController, animated: true, completion: nil)
         
-    }
-    @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        mealNameLabel.text = "Default text"
     }
     
     //MARK: UIImagePickerControllerDelegate

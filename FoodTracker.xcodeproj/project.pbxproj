@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D426FD22213D9B54004CE95A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D426FD21213D9B54004CE95A /* Meal.swift */; };
 		D43DBFEF2120E3ED008A8DA5 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43DBFEE2120E3ED008A8DA5 /* RatingControl.swift */; };
 		D49AFA18210A2F6000EDE5C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49AFA17210A2F6000EDE5C0 /* AppDelegate.swift */; };
 		D49AFA1A210A2F6000EDE5C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49AFA19210A2F6000EDE5C0 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D426FD21213D9B54004CE95A /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		D43DBFEE2120E3ED008A8DA5 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RatingControl.swift; path = ../RatingControl.swift; sourceTree = "<group>"; };
 		D49AFA14210A2F6000EDE5C0 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49AFA17210A2F6000EDE5C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				D49AFA17210A2F6000EDE5C0 /* AppDelegate.swift */,
 				D49AFA19210A2F6000EDE5C0 /* ViewController.swift */,
 				D43DBFEE2120E3ED008A8DA5 /* RatingControl.swift */,
+				D426FD21213D9B54004CE95A /* Meal.swift */,
 				D49AFA1B210A2F6000EDE5C0 /* Main.storyboard */,
 				D49AFA1E210A2F6200EDE5C0 /* Assets.xcassets */,
 				D49AFA20210A2F6200EDE5C0 /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D426FD22213D9B54004CE95A /* Meal.swift in Sources */,
 				D49AFA1A210A2F6000EDE5C0 /* ViewController.swift in Sources */,
 				D43DBFEF2120E3ED008A8DA5 /* RatingControl.swift in Sources */,
 				D49AFA18210A2F6000EDE5C0 /* AppDelegate.swift in Sources */,
@@ -363,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44H339GT83;
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44H339GT83;
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
