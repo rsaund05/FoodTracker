@@ -24,6 +24,7 @@ public class Meal{
             return nil
         }
         
+        //Rating must be a valid value
         guard (rating >= 0)  && (rating <= 5) else {
             return nil
         }
